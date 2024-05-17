@@ -1,0 +1,2181 @@
+INFO - 2024-05-16 03:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:07:51 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\maintenance\more_maintenance.php on line 5.
+ 1 APPPATH\Views\admin\maintenance\more_maintenance.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\maintenance\\more_maintenance.php', 5)
+ 2 APPPATH\Views\index.php(301): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\maintenance\\more_maintenance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:08:18 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\worker\edit_worker.php on line 5.
+ 1 APPPATH\Views\admin\worker\edit_worker.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\worker\\edit_worker.php', 5)
+ 2 APPPATH\Views\index.php(262): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\worker\\edit_worker.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:08:26 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\product\frais.php on line 47.
+ 1 APPPATH\Views\admin\product\frais.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\frais.php', 47)
+ 2 APPPATH\Views\index.php(240): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\frais.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:39:58 --> ErrorException: Undefined property: stdClass::$product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 49.
+ 1 APPPATH\Views\admin\qc\data_qc.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 49)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:42:31 --> ErrorException: Undefined property: stdClass::$product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 49.
+ 1 APPPATH\Views\admin\qc\data_qc.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 49)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:44:06 --> ErrorException: Undefined property: stdClass::$product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 49.
+ 1 APPPATH\Views\admin\qc\data_qc.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 49)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:47:23 --> ErrorException: Undefined property: stdClass::$product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 49.
+ 1 APPPATH\Views\admin\qc\data_qc.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 49)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:51:16 --> ErrorException: Undefined property: stdClass::$product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 49.
+ 1 APPPATH\Views\admin\qc\data_qc.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 49)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 03:54:47 --> mysqli_sql_exception: Unknown column 'qc_project.product_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Prakt...')
+#13 {main}
+CRITICAL - 2024-05-16 03:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.product_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 03:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 03:54:47 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc_project`.`product_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:58:00 --> Data yang diterima: {"Pengujian_elektrik":1,"Pengujian_mekanik":1,"Pengujian_program":0,"catatan":"wasu"}
+INFO - 2024-05-16 03:58:00 --> Update berhasil 1
+INFO - 2024-05-16 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:58:56 --> ErrorException: Undefined variable $product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\more_qc.php on line 95.
+ 1 APPPATH\Views\admin\qc\more_qc.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\more_qc.php', 95)
+ 2 APPPATH\Views\index.php(283): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\more_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 03:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 03:59:02 --> ErrorException: Undefined variable $product_name
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\more_qc.php on line 95.
+ 1 APPPATH\Views\admin\qc\more_qc.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_name', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\more_qc.php', 95)
+ 2 APPPATH\Views\index.php(283): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\more_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 03:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 03:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 04:02:52 --> mysqli_sql_exception: Table 'swiss_collection.workers' doesn't exist in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Prakt...')
+#13 {main}
+CRITICAL - 2024-05-16 04:02:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'swiss_collection.workers' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 04:02:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'swiss_collection.workers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 04:02:52 --> [Caused by] mysqli_sql_exception: Table 'swiss_collection.workers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `workers` ON `workers`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 04:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 04:05:46 --> mysqli_sql_exception: Not unique table/alias: 'qc_project' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Prakt...')
+#13 {main}
+CRITICAL - 2024-05-16 04:05:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'qc_project'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 04:05:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'qc_project'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 04:05:46 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'qc_project'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`
+LEFT JOIN `qc_project` ON `qc_project`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 04:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:07 --> Data yang diterima: {"Pengujian_elektrik":1,"Pengujian_mekanik":1,"Pengujian_program":0,"catatan":"yaelah bang"}
+INFO - 2024-05-16 04:07:07 --> Update berhasil 1
+INFO - 2024-05-16 04:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:08:58 --> Data yang diterima: {"Pengujian_elektrik":1,"Pengujian_mekanik":0,"Pengujian_program":0,"catatan":"prima"}
+INFO - 2024-05-16 04:08:58 --> Update berhasil 1
+INFO - 2024-05-16 04:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:43 --> Data yang diterima: {"Pengujian_elektrik":1,"Pengujian_mekanik":1,"Pengujian_program":0,"catatan":"hasil nya bagus"}
+INFO - 2024-05-16 04:21:43 --> Update berhasil 1
+INFO - 2024-05-16 04:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:53 --> Data yang diterima: {"Pengujian_elektrik":1,"Pengujian_mekanik":0,"Pengujian_program":0,"catatan":"ini sih bagus bagus aja"}
+INFO - 2024-05-16 04:21:53 --> Update berhasil 1
+INFO - 2024-05-16 04:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:27:32 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\product\frais.php on line 47.
+ 1 APPPATH\Views\admin\product\frais.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\frais.php', 47)
+ 2 APPPATH\Views\index.php(240): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\frais.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:28:30 --> ErrorException: include(db.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\admin\product\data_product.php on line 2.
+ 1 APPPATH\Views\admin\product\data_product.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db.php): Failed to open stream: No such file or directory', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\data_product.php', 2)
+ 2 APPPATH\Views\admin\product\data_product.php(2): include()
+ 3 APPPATH\Views\index.php(237): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\data_product.php')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 7 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:30:24 --> mysqli_sql_exception: Unknown database 'nama_database_anda'
+[Method: GET, Route: /]
+in APPPATH\Views\admin\product\data_product.php on line 3.
+ 1 APPPATH\Views\admin\product\data_product.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'nama_database_anda')
+ 2 APPPATH\Views\index.php(237): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\product\\data_product.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:47:55 --> ErrorException: Undefined variable $worker
+[Method: GET, Route: /]
+in APPPATH\Views\home\SuperAdmin.php on line 90.
+ 1 APPPATH\Views\home\SuperAdmin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $worker', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php', 90)
+ 2 APPPATH\Views\index.php(182): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:51:04 --> ErrorException: Undefined variable $worker
+[Method: GET, Route: /]
+in APPPATH\Views\home\SuperAdmin.php on line 90.
+ 1 APPPATH\Views\home\SuperAdmin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $worker', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php', 90)
+ 2 APPPATH\Views\index.php(182): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:55:51 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\home\SuperAdmin.php on line 90.
+ 1 APPPATH\Views\home\SuperAdmin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php', 90)
+ 2 APPPATH\Views\index.php(182): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 04:58:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\home\SuperAdmin.php on line 90.
+ 1 APPPATH\Views\home\SuperAdmin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php', 90)
+ 2 APPPATH\Views\index.php(182): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\home\\SuperAdmin.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 04:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 04:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:38:25 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:38:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:38:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:38:26 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:23 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:23 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:34 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:34 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:35 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:35 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:36 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:36 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:37 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:37 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:38 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:38 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:39 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:39 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:41 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:41 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:42:43 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:42:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:42:43 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:43:39 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:43:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:39 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:43:41 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:43:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:41 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:43:42 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-16 06:43:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 06:43:42 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 06:44:12 --> mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause' in E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\app\Controllers\Home.php(70): App\Models\QcModel->getData()
+#6 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\Polman\Praktek Enterprise\Code_Ena_Minggu2\ena\ena\system\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Prakt...')
+#13 {main}
+CRITICAL - 2024-05-16 06:44:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 2 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 06:44:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 4 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+CRITICAL - 2024-05-16 06:44:12 --> [Caused by] mysqli_sql_exception: Unknown column 'qc_project.qc_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `qc_project`
+JOIN `qc` ON `qc`.`qc_id` = `qc_project`.`qc_id`
+LEFT JOIN `product` ON `product`.`product_id` = `qc`.`product_id`
+LEFT JOIN `worker` ON `worker`.`worker_id` = `qc`.`worker_id`', [], false)
+ 5 APPPATH\Models\QCModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(70): App\Models\QcModel->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 06:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 06:59:18 --> ErrorException: Undefined property: stdClass::$catatan
+[Method: GET, Route: /]
+in APPPATH\Views\admin\qc\data_qc.php on line 56.
+ 1 APPPATH\Views\admin\qc\data_qc.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$catatan', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php', 56)
+ 2 APPPATH\Views\index.php(271): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\qc\\data_qc.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 06:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 06:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:00:02 --> Data yang diterima: {"Pengujian_elektrik":0,"Pengujian_mekanik":0,"Pengujian_program":0,"catatan":"GOOD BRO"}
+INFO - 2024-05-16 07:00:02 --> Update berhasil 1
+INFO - 2024-05-16 07:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:00:04 --> Data yang diterima: {"Pengujian_elektrik":0,"Pengujian_mekanik":0,"Pengujian_program":0,"catatan":"GOOD BRO"}
+INFO - 2024-05-16 07:00:04 --> Update berhasil 1
+INFO - 2024-05-16 07:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 07:03:12 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\maintenance\more_maintenance.php on line 5.
+ 1 APPPATH\Views\admin\maintenance\more_maintenance.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\maintenance\\more_maintenance.php', 5)
+ 2 APPPATH\Views\index.php(301): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\maintenance\\more_maintenance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\public\\index.php')
+INFO - 2024-05-16 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:25 --> Data yang diterima: {"Konsep_Design":0,"Material_Preparation":1,"Machining":1,"Assy":0,"TrialImprove":0,"Delivery":0,"Keuangan":0}
+INFO - 2024-05-16 07:15:25 --> Update berhasil
+INFO - 2024-05-16 07:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:35 --> Data yang diterima: {"Konsep_Design":1,"Material_Preparation":1,"Machining":0,"Assy":0,"TrialImprove":0,"Delivery":0,"Keuangan":0}
+INFO - 2024-05-16 07:15:35 --> Update berhasil
+INFO - 2024-05-16 07:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:47 --> Data yang diterima: {"Konsep_Design":1,"Material_Preparation":1,"Machining":0,"Assy":0,"TrialImprove":0,"Delivery":0,"Keuangan":0}
+INFO - 2024-05-16 07:15:47 --> Update berhasil
+INFO - 2024-05-16 07:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:20:59 --> Data yang diterima: {"Konsep_Design":0,"Material_Preparation":0,"Machining":0,"Assy":0,"TrialImprove":0,"Delivery":1,"Keuangan":1}
+INFO - 2024-05-16 07:20:59 --> Update berhasil
+INFO - 2024-05-16 07:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 07:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 07:21:08 --> ErrorException: Undefined variable $koneksi
+[Method: GET, Route: /]
+in APPPATH\Views\admin\project\del_project.php on line 4.
+ 1 APPPATH\Views\admin\project\del_project.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $koneksi', 'E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\project\\del_project.php', 4)
+ 2 APPPATH\Views\index.php(224): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\admin\\project\\del_project.php')
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\Polman\\Praktek Enterprise\\Code_Ena_Minggu2\\ena\\ena\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(83): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-16 07:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 08:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
